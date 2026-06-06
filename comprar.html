@@ -1,0 +1,108 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compra MotoX</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    background:#1a1a1a;
+    padding:40px;
+    border-radius:15px;
+    width:500px;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:#ff6600;
+}
+
+input, select{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:15px;
+    background:#ff6600;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.volver{
+    display:inline-block;
+    margin-bottom:20px;
+    color:#ff6600;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.volver:hover{
+    color:#ff8533;
+}
+
+button:hover{
+    background:#ff8533;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Datos de Compra</h1>
+<a href="ktm iker.html" class="volver">← Regresar al catálogo</a>
+<form>
+
+<input type="text" placeholder="Nombre completo" required>
+
+<input type="email" placeholder="Correo electrónico" required>
+
+<input type="tel" placeholder="Teléfono" required>
+
+<input type="text" placeholder="Dirección" required>
+
+<select required>
+<option value="">Selecciona una motocicleta</option>
+<option>MotoX 450 Rally</option>
+<option>MotoX Duke 390</option>
+<option>MotoX Adventure</option>
+</select>
+
+<button type="submit">Enviar Solicitud</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
+```
